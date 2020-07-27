@@ -16,7 +16,7 @@ main {
   position: absolute;
   top: 0;
   right: 0;
-  height: 100%;
+  height: calc(100% - 80px);
   width: calc(100% - 350px);
   background-color: yellow;
   overflow-y: auto;
@@ -28,7 +28,7 @@ footer {
 }
 
 .left_bar {
-  height: 100%;
+  height: calc(100% - 80px);
   width: 350px;
   background-color: green;
 }
