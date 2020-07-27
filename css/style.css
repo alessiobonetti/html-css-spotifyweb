@@ -11,7 +11,7 @@
   background-color: #000;
 }
 
-/* SECTIONS HEIGHTS */
+/* SECTIONS HEIGHTS AND FEATURES */
 main {
   position: absolute;
   top: 0;
@@ -19,6 +19,7 @@ main {
   height: 100%;
   width: calc(100% - 350px);
   background-color: yellow;
+  overflow-y: auto;
 }
 
 footer {
@@ -31,3 +32,52 @@ footer {
   width: 350px;
   background-color: green;
 }
+
+/* PADDINGS */
+.pdn_25 {
+  padding: 25px;
+}
+.pdn_top_85 {
+  padding-top: 85px;
+}
+
+/* BORDERS */
+.border_radius_100 {
+  border-radius: 100px;
+}
+
+/* UTILITIES */
+
+.dsp_inlineblock {
+  display: inline-block;
+}
+
+/* BOX */
+
+.song_box {
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  background-color: red;
+}
+
+/* ASIDE */
+
+/* MAIN */
+/* main top bar */
+#main_top_bar {
+  position: fixed;
+  top:0;
+  right:0;
+  height: 80px;
+  width: calc(100% - 350px);
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* main navbar */
+.main_navbar_list li {
+  display: inline-block;
+  list-style: none;
+}
+
+/* FOOTER */
