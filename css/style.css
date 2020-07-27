@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin:0;
+}
+
+/* WRAPPERS */
+.all_wrapper{
+  position: relative;
+  height: 100vh;
+  background-color: #000;
+}
+
+/* SECTION HEIGHTS */
+main {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: calc(100% - 350px);
+  background-color: yellow;
+}
+
+footer {
+  height: 80px;
+  background-color: purple;
+}
+
+.left_bar {
+  height: 100%;
+  width: 350px;
+  background-color: green;
+}
