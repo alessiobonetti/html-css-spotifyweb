@@ -17,7 +17,7 @@ main {
   top: 0;
   right: 0;
   height: calc(100% - 80px);
-  width: calc(100% - 350px);
+  width: calc(100% - 250px);
   background-color: yellow;
   overflow-y: auto;
 }
@@ -27,13 +27,17 @@ footer {
   background-color: purple;
 }
 
-.left_bar {
+.aside_bar {
   height: calc(100% - 80px);
-  width: 350px;
+  width: 250px;
   background-color: green;
 }
 
 /* PADDINGS */
+.pdn_15 {
+  padding:15px;
+}
+
 .pdn_25 {
   padding: 25px;
 }
@@ -62,6 +66,10 @@ footer {
 }
 
 /* ASIDE */
+/* aside header */
+.aside_header_logo img {
+  max-width: 75%;
+}
 
 /* MAIN */
 /* main top bar */
@@ -70,7 +78,7 @@ footer {
   top:0;
   right:0;
   height: 80px;
-  width: calc(100% - 350px);
+  width: calc(100% - 250px);
   background-color: rgba(0, 0, 0, 0.7);
 }
 
