@@ -33,7 +33,8 @@ footer {
 }
 
 .aside_bar {
-  position: relative;
+  display: flex;
+  flex-direction: column;
   height: calc(100% - 80px);
   width: 250px;
   background-color: green;
@@ -79,7 +80,8 @@ footer {
 
 /* aside main */
 .aside_bar_main {
-  height: 80%;
+  height: 100%;
+  overflow: hidden;
 }
 
 .aside_main_title {
@@ -93,9 +95,7 @@ footer {
 
 /* aside bottom */
 .aside_bar_bottom {
-  position: absolute;
-  bottom: 15px;
-  left: 15px;
+  margin-top: auto;
 }
 
 /* MAIN */
