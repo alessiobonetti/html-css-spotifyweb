@@ -9,6 +9,17 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.fnt_color_grey {
+  color: #3E3E3E;
+}
+
+/* IMG */
+
+.aside_icon {
+  max-width: 12%;
+  vertical-align: middle;
+}
+
 /* WRAPPERS */
 .all_wrapper{
   position: relative;
@@ -48,6 +59,10 @@ footer {
 .pdn_25 {
   padding: 25px;
 }
+
+.padding_bottom_30 {
+  padding-bottom: 30px;
+}
 .pdn_top_85 {
   padding-top: 85px;
 }
@@ -63,6 +78,11 @@ footer {
   display: inline-block;
 }
 
+/* LISTS */
+.lst_style_none {
+  list-style: none;
+}
+
 /* BOX */
 
 .song_box {
@@ -76,6 +96,15 @@ footer {
 /* aside header */
 .aside_header_logo img {
   max-width: 75%;
+}
+
+.aside_nav_list a  {
+  text-decoration: none;
+  color: #3E3E3E;
+}
+
+.aside_nav_list a:hover {
+  color: #fff;
 }
 
 /* aside main */
