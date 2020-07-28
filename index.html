@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- fontawesome -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <!-- google fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
     <!-- css style -->
     <link rel="stylesheet" href="css/style.css">
     <title>Spotify</title>
@@ -16,12 +16,12 @@
     <div class="all_wrapper">
 
       <!-- left bar and nav -->
-      <aside class="aside_bar pdn_15">
+      <aside class="aside_bar pdn_15 bckgn_black">
 
         <!-- left bar title -->
         <section class="aside_bar_header">
           <!-- logo -->
-          <div class="aside_header_logo padding_bottom_30">
+          <div class="aside_header_logo pdn_bottom_30">
             <img src="img/Spotify_Logo.png" alt="spotify logo">
           </div>
           <!-- /logo -->
@@ -35,18 +35,16 @@
             </ul>
           </nav>
           <!-- /main navbar -->
-
-
         </section>
         <!-- /left bar title -->
 
         <!-- left bar playlist -->
-        <section class="aside_bar_main">
+        <section class="aside_bar_main pdn_top_25">
           <div class="aside_main_title">
-            <h3>Playlist</h3>
+            <h3 class="mini_title fnt_color_white">Playlist</h3>
           </div>
           <ul class="aside_main_playlist lst_style_none">
-            <li><a href="#">Crea Playlist</a></li>
+            <li><a href="#"><i class="fas fa-plus-square pdn_right_10"></i>Crea Playlist</a></li>
             <li><a href="#">Nome Playlist</a></li>
             <li><a href="#">Nome Playlist</a></li>
             <li><a href="#">Nome Playlist</a></li>
@@ -54,17 +52,15 @@
             <li><a href="#">Nome Playlist</a></li>
             <li><a href="#">Nome Playlist</a></li>
             <li><a href="#">Nome Playlist</a></li>
-
           </ul>
-
         </section>
         <!-- /left bar playlist -->
 
         <!-- left bar user -->
         <section class="aside_bar_bottom">
-          <a href="#">Installa app</a>
-          <hr>
-          <strong>John Doe</strong>
+          <a href="#"><i class="far fa-arrow-alt-circle-down pdn_right_10"></i>Installa app</a>
+          <hr class="mrg_5_0">
+          <img class="aside_bottom_profile border_radius_100" src="img/profile.svg" alt=""><strong class="fnt_color_white pdn_left_10">John Doe</strong>
 
         </section>
         <!-- /left bar user -->
