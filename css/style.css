@@ -14,6 +14,11 @@
   color: #fff;
 }
 
+/* HIDDEN */
+.hidden {
+  display:none;
+}
+
 /* BACKGROUNDS */
 
 .bckgn_black {
@@ -24,6 +29,10 @@
 body {
   font-family: 'Montserrat', sans-serif;
   color: #616161;
+}
+
+.txt_center {
+  text-align: center;
 }
 
 /* small title */
@@ -145,6 +154,10 @@ footer {
   max-width: 75%;
 }
 
+.aside_nav_list li {
+  padding: 8px 0;
+}
+
 
 .aside_nav_list a:hover {
   color: #fff;
@@ -211,3 +224,38 @@ footer {
 
 
 /* FOOTER */
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 552px) {
+  /* width calc */
+  .aside_bar {
+    width: 80px;
+  }
+
+  main {
+    width: calc(100% - 80px);
+  }
+
+  #main_top_bar{
+    width: calc(100% - 80px);
+  }
+  /* /width calc */
+
+
+  .aside_nav_list_sm .aside_header_logo_sm img {
+    width:85%;
+  }
+
+  .aside_nav_list_sm li {
+    text-align: center;
+  }
+
+  .sm_notshow {
+    display: none;
+  }
+
+  .sm_show {
+    display: block;
+  }
+}

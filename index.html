@@ -21,25 +21,39 @@
         <!-- left bar title -->
         <section class="aside_bar_header">
           <!-- logo -->
-          <div class="aside_header_logo pdn_bottom_30">
+          <div class="aside_header_logo pdn_bottom_30 sm_notshow">
             <img src="img/Spotify_Logo.png" alt="spotify logo">
+          </div>
+
+          <div class="aside_header_logo_sm pdn_bottom_30 hidden sm_show txt_center">
+            <img src="img/logo-small.svg" alt="spotify logo">
           </div>
           <!-- /logo -->
 
           <!-- main navbar -->
+          <!-- show -->
           <nav class="aside_header_nav">
-            <ul class="aside_nav_list lst_style_none">
+            <ul class="aside_nav_list sm_notshow lst_style_none ">
               <li><a href="#"><img class="aside_icon"  src="img/home.svg" alt="home log"> Home</a></li>
               <li><a href="#"><img class="aside_icon"  src="img/search.svg" alt="search log">Cerca</a></li>
               <li><a href="#"><img class="aside_icon"  src="img/libreria.svg" alt="Library log">La tua libreria</a></li>
             </ul>
+          <!-- /show -->
+
+          <!-- sm show -->
+            <ul class="aside_nav_list_sm hidden sm_show lst_style_none">
+              <li><a href="#"><img  src="img/home.svg" alt="home log"></a></li>
+              <li><a href="#"><img  src="img/search.svg" alt="search log"></a></li>
+              <li><a href="#"><img  src="img/libreria.svg" alt="Library log"></a></li>
+            </ul>
+          <!-- /sm show -->
           </nav>
           <!-- /main navbar -->
         </section>
         <!-- /left bar title -->
 
         <!-- left bar playlist -->
-        <section class="aside_bar_main pdn_top_25">
+        <section class="aside_bar_main pdn_top_25 sm_notshow">
           <div class="aside_main_title">
             <h3 class="mini_title fnt_color_white">Playlist</h3>
           </div>
@@ -58,10 +72,22 @@
 
         <!-- left bar user -->
         <section class="aside_bar_bottom">
-          <a href="#"><i class="far fa-arrow-alt-circle-down pdn_right_10"></i>Installa app</a>
-          <hr class="mrg_5_0">
-          <img class="aside_bottom_profile border_radius_100" src="img/profile.svg" alt=""><strong class="fnt_color_white pdn_left_10">John Doe</strong>
+          <!-- show -->
+          <div class="aside_bar_bottom_show sm_notshow">
+            <a href="#"><i class="far fa-arrow-alt-circle-down pdn_right_10"></i>Installa app</a>
+            <hr class="mrg_5_0">
+            <img class="aside_bottom_profile border_radius_100" src="img/profile.svg" alt=""><strong class="fnt_color_white pdn_left_10">John Doe</strong>
+          </div>
+          <!-- /show -->
 
+          <!-- sm show -->
+          <div class="aside_bar_bottom_smshow hidden sm_show txt_center">
+            <a href="#"><i class="far fa-arrow-alt-circle-down "></i></a>
+            <div class="img_wrapper pdn_top_25">
+              <img class="aside_bottom_profile border_radius_100 " src="img/profile.svg" alt="">
+            </div>
+          </div>
+          <!-- /sm show -->
         </section>
         <!-- /left bar user -->
 
