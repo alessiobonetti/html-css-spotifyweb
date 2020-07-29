@@ -72,6 +72,11 @@ body {
   background-color: #000;
 }
 
+.list_wrapper {
+  width: 85%;
+  margin: auto;
+}
+
 /* SECTIONS HEIGHTS AND FEATURES */
 main {
   position: absolute;
@@ -155,10 +160,8 @@ footer {
 /* BOX */
 
 .song_box {
+  width: calc((100% / 6) - 4px);
   display: inline-block;
-  height: 200px;
-  width: 200px;
-  background-color: red;
   text-align: center;
   padding: 10px;
 }
@@ -243,7 +246,9 @@ footer {
 }
 
 /* main navbar */
+
 .main_navbar_list li {
+ width: calc((100% / 6) - 4px);
  display: inline-block;
  padding: 5px;
 }
@@ -259,10 +264,6 @@ footer {
 
 /* main songs */
 
-.main_recently_played_boxes {
-  width: calc(100% / 6);
-}
-
 .song_box img {
   max-width: 100%;
 }
@@ -274,7 +275,7 @@ footer {
 /* RESPONSIVE */
 
 /* Small width */
-@media screen and (max-width: 552px) {
+@media screen and (max-width: 857px) {
   /* width calc */
   .aside_bar {
     width: 80px;
@@ -286,6 +287,14 @@ footer {
 
   #main_top_bar{
     width: calc(100% - 80px);
+  }
+
+  .list_wrapper {
+    width: 100%;
+  }
+
+  .main_navbar_list li {
+    width: calc((100% / 4) - 4px);
   }
   /* /width calc */
 
@@ -316,5 +325,19 @@ footer {
 
   footer {
     z-index: 2;
+  }
+}
+
+/* small m */
+@media screen and (min-width: 858px) and (max-width: 1218px) {
+  .main_navbar_list li {
+    width: calc((100% / 3) - 4px);
+  }
+}
+
+/* medium */
+@media screen and (min-width: 1219px) and (max-width: 1630px) {
+  .main_navbar_list li {
+    width: calc((100% / 5) - 4px);
   }
 }
