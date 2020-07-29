@@ -227,6 +227,7 @@ footer {
 
 /* RESPONSIVE */
 
+/* Small width */
 @media screen and (max-width: 552px) {
   /* width calc */
   .aside_bar {
@@ -257,5 +258,17 @@ footer {
 
   .sm_show {
     display: block;
+  }
+}
+
+/* small height */
+@media screen and (max-height: 385px) {
+
+  .aside_bar {
+    overflow: hidden;
+  }
+
+  footer {
+    z-index: 2;
   }
 }
