@@ -114,6 +114,10 @@ footer {
   padding-right: 10px;
 }
 
+.pdn_right_20 {
+  padding-right: 20px;
+}
+
 .pdn_left_10 {
   padding-left: 10px;
 }
@@ -146,6 +150,13 @@ footer {
   height: 200px;
   width: 200px;
   background-color: red;
+}
+
+/* BUTTON */
+.btn {
+  border: 1px solid #fff;
+  border-radius: 50px;
+  padding: 15px 35px;
 }
 
 /* ASIDE */
@@ -213,6 +224,11 @@ footer {
   height: 80px;
   width: calc(100% - 250px);
   background-color: rgba(0, 0, 0, 0.7);
+  text-align: right;
+}
+
+#main_top_bar a {
+  line-height: 80px;
 }
 
 /* main navbar */
