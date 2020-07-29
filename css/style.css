@@ -71,7 +71,7 @@ body {
 }
 
 /* LAYER */
-.layer {
+.song_box .layer {
   display: none;
   position: absolute;
   top: 3% ;
@@ -81,7 +81,7 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.layer i {
+.song_box .layer i {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -297,7 +297,7 @@ footer {
   max-width: 100%;
 }
 
-a .layer:hover {
+.song_box:hover .layer {
   display: block;
   cursor: pointer;
 }
