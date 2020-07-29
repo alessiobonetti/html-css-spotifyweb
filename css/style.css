@@ -260,7 +260,7 @@ footer {
 /* main songs */
 
 .main_recently_played_boxes {
-  width: calc((100% / 6) - 30px);
+  width: calc(100% / 6);
 }
 
 .song_box img {
