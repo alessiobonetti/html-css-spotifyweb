@@ -70,6 +70,26 @@ body {
   vertical-align: middle;
 }
 
+/* LAYER */
+.layer {
+  display: none;
+  position: absolute;
+  top: 3% ;
+  left: 4% ;
+  height: 75%;
+  width: 92%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.layer i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 80px;
+}
+
 /* WRAPPERS */
 .all_wrapper{
   position: relative;
@@ -165,12 +185,18 @@ footer {
 /* BOX */
 
 .song_box {
-  height: 300px;
+  position: relative;
   width: calc((100% / 6) - 4px);
   display: inline-block;
   text-align: center;
   padding: 10px;
-  vertical-align: middle;
+  vertical-align: text-top;
+  overflow: hidden;
+}
+
+.main_recently_played_boxes a:hover {
+  display: block;
+  cursor: pointer;
 }
 
 /* BUTTON */
@@ -190,10 +216,6 @@ footer {
   padding: 8px 0;
 }
 
-
-.aside_nav_list a:hover {
-  color: #fff;
-}
 
 .aside_nav_list li:first-child {
   border-left: 2px solid #7FFF00;
@@ -275,6 +297,10 @@ footer {
   max-width: 100%;
 }
 
+a .layer:hover {
+  display: block;
+  cursor: pointer;
+}
 
 
 
