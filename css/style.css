@@ -296,6 +296,10 @@ footer {
   .main_navbar_list li {
     width: calc((100% / 4) - 4px);
   }
+
+  .song_box {
+    width: calc((100% / 2) - 4px);
+  }
   /* /width calc */
 
 
@@ -333,11 +337,19 @@ footer {
   .main_navbar_list li {
     width: calc((100% / 3) - 4px);
   }
+
+  .song_box {
+    width: calc((100% / 2) - 4px);
+  }
 }
 
 /* medium */
 @media screen and (min-width: 1219px) and (max-width: 1630px) {
   .main_navbar_list li {
     width: calc((100% / 5) - 4px);
+  }
+
+  .song_box {
+    width: calc((100% / 4) - 4px);
   }
 }
